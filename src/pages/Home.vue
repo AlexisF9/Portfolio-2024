@@ -10,7 +10,6 @@
                   :slides-per-view="'auto'"
                   :space-between="40"
                   :direction="'vertical'"
-                  :modules="[Navigation]"
               >
                 <SwiperSlide v-for="item in data" :key="item.id">
                   <div class="c-home__card">
@@ -31,8 +30,6 @@
 <script setup lang="ts">
 import Hero from "../components/Hero.vue";
 import {Swiper, SwiperSlide} from "swiper/vue";
-import { Navigation } from "swiper/modules";
-import 'swiper/css/navigation';
 import rea from '../../public/realisations.json';
 
 import {ref} from "vue";
