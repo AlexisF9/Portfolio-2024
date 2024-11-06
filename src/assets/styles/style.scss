@@ -1,0 +1,67 @@
+// ------------------ //
+// SETTINGS
+// ------------------ //
+@use "01_settings/settings.breakpoints";
+@use "01_settings/settings.media-queries" as settings2;
+@use "01_settings/settings.colors" as settings3;
+@use "01_settings/settings.spacing" as settings4;
+@use "01_settings/settings.fonts" as settings5;
+@use "01_settings/settings.transition" as settings6;
+@use "01_settings/settings.typography" as settings7;
+@use "01_settings/settings.variables" as settings8;
+@use "01_settings/settings.radius" as settings9;
+@use "01_settings/settings.scrollbar" as settings10;
+
+// ------------------ //
+// GENERICS
+// ------------------ //
+@use "02_generics/generics.box-sizing";
+@use "02_generics/generics.reset" as generics2;
+@use "02_generics/generics.reduced-motion" as generics3;
+
+// ------------------ //
+// ELEMENTS
+// ------------------ //
+@use "03_elements/elements.page";
+@use "03_elements/elements.media" as elements2;
+
+// ------------------ //
+// OBJECTS
+// ------------------ //
+@use "04_objects/objects.container";
+
+// ------------------ //
+// COMPONENTS
+// ------------------ //
+@use "05_components/components.text";
+@use "05_components/components.heading" as components2;
+@use "05_components/components.hero" as components3;
+@use "05_components/components.home" as components4;
+
+// ------------------ //
+// UTILITIES
+// ------------------ //
+@use "06_utilities/utilities.hidden";
+@use "06_utilities/utilities.overflow" as utilities2;
+@use "06_utilities/utilities.sr" as utilities3;
+@use "06_utilities/utilities.colors" as utilities4;
+@use "06_utilities/utilities.margin" as utilities5;
+@use "06_utilities/utilities.font-weight" as utilities6;
+@use "06_utilities/utilities.alignment" as utilities7;
+@use "06_utilities/utilities.transform" as utilities8;
+
+html {
+  scroll-behavior: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: inherit;
+}
+
+h1, h2, h3, p, a {
+  margin: 0;
+}

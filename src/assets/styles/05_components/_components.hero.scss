@@ -1,0 +1,121 @@
+@use "../01_settings/settings.spacing";
+
+.c-hero {
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    overflow: hidden;
+  }
+}
+
+.c-hero__name {
+  background: linear-gradient(to right, #60d9f8, #3fb984);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.c-hero__jobs {
+  overflow: hidden;
+  height: settings.$space-32;
+  display: inline-flex;
+  flex-direction: column;
+
+  > span {
+    animation: slide 6s ease 4s infinite;
+    background: linear-gradient(to right, #60d9f8, #3fb984);
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@keyframes slide {
+  0%, 20% {
+    transform: translateY(0);
+  }
+  25%, 55% {
+    transform: translateY(-100%);
+  }
+  60%, 85% {
+    transform: translateY(-200%);
+  }
+}
+
+.c-hero__me {
+  margin-bottom: settings.$space-40;
+  border-radius: 30rem;
+  border: 1px solid #545454;
+}
+
+.c-hero__logos {
+  margin-top: settings.$space-40;
+  display: flex;
+  align-items: center;
+  gap: settings.$space-16;
+}
+
+.c-hero__logo {
+  height: settings.$space-40;
+}
+
+/////// ANIMATIONS$
+
+.fade-enter-active {
+  opacity: 0;
+  animation: fade .4s ease-in-out .5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.slide-enter-active {
+  opacity: 0;
+  animation: slide-in .4s ease-in-out 2s;
+  transition: opacity .4s;
+}
+
+.slide2-enter-active {
+  opacity: 0;
+  animation: slide-in .4s ease-in-out 2.2s;
+  transition: opacity .4s;
+}
+
+.slide3-enter-active {
+  opacity: 0;
+  animation: slide-in .4s ease-in-out 2.4s;
+  transition: opacity .4s;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-3rem);
+  }
+  to {
+    transform: translateX(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.c-hero__test {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}

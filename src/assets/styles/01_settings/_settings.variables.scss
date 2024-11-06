@@ -1,0 +1,21 @@
+@use "settings.media-queries";
+
+:root {
+
+  // Layout
+  @include settings.min-width(xxl) {
+    --page-max-width: calc(160rem + 2 * var(--page-gutter));
+  }
+
+  @include settings.max-width(xxl) {
+    --page-max-width: calc(131.2rem + 2 * var(--page-gutter));
+  }
+
+  @include settings.min-width(lg) {
+    --page-gutter: 4rem;
+  }
+
+  @include settings.max-width(lg) {
+    --page-gutter: 2rem;
+  }
+}

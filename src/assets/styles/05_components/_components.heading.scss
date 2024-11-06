@@ -1,0 +1,38 @@
+@use "../01_settings/settings.media-queries" as settings2;
+@use "../01_settings/settings.typography";
+
+.c-h-3xl-desk {
+  @include settings2.min-width(md) {
+    @include settings.text('h-3xl', $font-weight: 500, $font-family: var(--font-secondary));
+  }
+}
+
+.c-h-2xl {
+  @include settings.text('h-2xl', $font-weight: 500, $font-family: var(--font-secondary));
+}
+
+.c-h-2xl-mob {
+  @include settings2.max-width(md) {
+    @include settings.text('h-2xl', $font-weight: 500, $font-family: var(--font-secondary));
+  }
+}
+
+.c-h-xl {
+  @include settings.text('h-xl', $font-weight: 500, $font-family: var(--font-secondary));
+}
+
+.c-h-l {
+  @include settings.text('h-l', $font-weight: 500, $font-family: var(--font-secondary));
+}
+
+.c-h-l-desk {
+  @include settings2.min-width(md) {
+    @include settings.text('h-l', $font-weight: 500, $font-family: var(--font-secondary));
+  }
+}
+
+.c-h-l-mob {
+  @include settings2.max-width(md) {
+    @include settings.text('h-l', $font-weight: 500, $font-family: var(--font-secondary));
+  }
+}
