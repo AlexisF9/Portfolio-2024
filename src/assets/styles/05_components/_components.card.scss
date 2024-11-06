@@ -1,0 +1,55 @@
+@import "../01_settings/settings.spacing";
+@import "../01_settings/settings.media-queries";
+
+.c-card {
+  width: 35rem;
+  height: auto;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #60d9f8, #3fb984);
+
+  @include max-width(md) {
+    width: 100%;
+    height: auto;
+  }
+
+  & > div {
+    padding: $space-20;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    transition: transform .2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &:hover > div {
+    transform: translate(-10px, -10px);
+  }
+}
+
+.c-card__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: $space-20;
+}
+
+.c-card__type {
+  border: 1px solid var(--color-neutral-2);
+  border-radius: 10rem;
+  padding: .5rem 1rem;
+  min-width: fit-content;
+}
+
+.c-card__footer {
+  margin-top: $space-20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.c-card__techno {
+  height: $space-40;
+  width: fit-content;
+}

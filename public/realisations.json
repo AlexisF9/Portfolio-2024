@@ -2,26 +2,41 @@
   {
     "id": 1,
     "title": "Bongénie",
-    "type": "pro"
+    "short-description": "Intégration du site de Bongénie avec Stimulus",
+    "type": "pro",
+    "picture": "/images/bongenie-1.png",
+    "techno": "stimulus"
   },
   {
     "id": 2,
     "title": "Daitem",
-    "type": "pro"
+    "short-description": "",
+    "type": "pro",
+    "picture": "",
+    "techno": "stimulus"
   },
   {
     "id": 3,
     "title": "Clap",
-    "type": "perso"
+    "short-description": "",
+    "type": "perso",
+    "picture": "",
+    "techno": "vue"
   },
   {
     "id": 4,
     "title": "Qui veut du fromage ?",
-    "type": "pro"
+    "short-description": "",
+    "type": "pro",
+    "picture": "",
+    "techno": "react"
   },
   {
     "id": 5,
     "title": "Balenciaga Sustainability",
-    "type": "pro"
+    "short-description": "",
+    "type": "pro",
+    "picture": "",
+    "techno": "react"
   }
 ]

@@ -1,6 +1,10 @@
-@use "../01_settings/settings.spacing";
+@import "../01_settings/settings.spacing";
+@import "../01_settings/settings.media-queries";
 
 .c-hero {
+  @include max-width(lg) {
+    padding-top: $space-40;
+  }
 
   h1 {
     display: flex;
@@ -22,7 +26,7 @@
 
 .c-hero__jobs {
   overflow: hidden;
-  height: settings.$space-32;
+  height: $space-32;
   display: inline-flex;
   flex-direction: column;
 
@@ -49,20 +53,24 @@
 }
 
 .c-hero__me {
-  margin-bottom: settings.$space-40;
+  margin-bottom: $space-40;
   border-radius: 30rem;
   border: 1px solid #545454;
+
+  @include max-width(lg) {
+    max-width: 20rem;
+  }
 }
 
 .c-hero__logos {
-  margin-top: settings.$space-40;
+  margin-top: $space-40;
   display: flex;
   align-items: center;
-  gap: settings.$space-16;
+  gap: $space-16;
 }
 
 .c-hero__logo {
-  height: settings.$space-40;
+  height: $space-40;
 }
 
 /////// ANIMATIONS$
