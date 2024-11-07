@@ -35,7 +35,8 @@
       </div>
     </div>
     <div class="c-home__footer">
-      <a href="https://github.com/AlexisF9" target="_blank" class="c-text-m u-text-white">Visiter mon GitHub</a>
+      <a href="https://github.com/AlexisF9" target="_blank" class="c-text-m u-text-white">Voir mon GitHub</a>
+      <a href="https://www.linkedin.com/in/alexis-flacher-772ba7197/" target="_blank" class="c-text-m u-text-white">LinkedIn</a>
       <a href="mailto:alexis.flacher38@gmail.com" class="c-text-m u-text-white">Me contacter</a>
     </div>
   </div>

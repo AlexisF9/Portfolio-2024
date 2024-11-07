@@ -116,9 +116,21 @@
     }
   }
 
-  a:nth-child(odd)::after {
+  a {
+    transition: .4s color;
+  }
+
+  a:not(:last-child)::after {
     content: '•';
     padding-left: 1rem;
     margin-right: 1rem;
+  }
+
+  a:hover {
+    color: var(--text-light);
+
+    &::after {
+      color: var(--text-white);
+    }
   }
 }

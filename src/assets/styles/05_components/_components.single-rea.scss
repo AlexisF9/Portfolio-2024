@@ -1,3 +1,35 @@
-.c-single-rea {
+@use "../01_settings/settings.spacing";
 
+.c-single-rea {
+  padding: settings.$space-56 0;
+}
+
+.c-single-rea__infos {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: settings.$space-24;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: settings.$space-10;
+  }
+}
+
+.c-single-rea__arrows {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: settings.$space-10;
+
+  .swiper-button-disabled {
+    opacity: .5;
+  }
+}
+
+.c-single-rea__prev {
+  svg {
+    transform: rotate(180deg);
+  }
 }

@@ -140,12 +140,6 @@ video {
   max-width: 100%;
 }
 
-svg:not(:root) {
-  fill: none;
-  display: block;
-  overflow: hidden;
-}
-
 a, area, button, [role="button"], input:not([type="range"]), label, select, summary, textarea {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
