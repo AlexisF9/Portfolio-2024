@@ -1,26 +1,32 @@
 <template>
   <div class="c-home">
-    <div class="o-container o-container--md">
+    <div class="o-container o-container--sm">
       <div class="c-home__content">
         <Hero/>
         <div class="c-home__realisations">
           <Transition name="home-test" appear>
             <div class="c-home__swiper">
               <Swiper
+                  slides-per-view="auto"
                   :breakpoints="{
                     '320': {
-                      slidesPerView: 5,
-                      direction: 'horizontal'
+                      direction: 'horizontal',
+                      spaceBetween: 20
                     },
                     '1024': {
-                      slidesPerView: 'auto',
                       direction: 'vertical',
                       spaceBetween: 40
                     }
                   }"
               >
                 <SwiperSlide v-for="item in data" :key="item.id">
-                  <Card :title="item.title" :type="item.type" :techno="item.techno" :picture="item.picture"/>
+                  <Card
+                      :name="item.name"
+                      :title="item.title"
+                      :type="item.type"
+                      :technos="item.technos"
+                      :desc="item.shortDescription"
+                  />
                 </SwiperSlide>
               </Swiper>
             </div>
@@ -33,25 +39,11 @@
 
 <script setup lang="ts">
 import Hero from "../components/Hero.vue";
+import Card from "../components/Card.vue";
 import {Swiper, SwiperSlide} from "swiper/vue";
 import rea from '../../public/realisations.json';
+import 'swiper/css';
 
 import {ref} from "vue";
-import Card from "../components/Card.vue";
 const data = ref(rea)
 </script>
-
-<!--
-:breakpoints="{
-                    '320': {
-                      touchRatio: 0,
-                      shortSwipes: false,
-                      longSwipes: false
-                    },
-                    '1024': {
-                      touchRatio: 1,
-                      shortSwipes: true,
-                      longSwipes: true
-                    }
-                  }"
--->

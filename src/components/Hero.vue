@@ -9,10 +9,10 @@ const me = ["dev front-end", "intégrateur", "grand fan de café"]
     </Transition>
     <div>
       <Transition name="slide" appear>
-        <h1 class="c-h-2xl u-text-white u-mb-24">Bienvenue sur mon portfolio !</h1>
+        <h1 class="c-h-xl u-text-white u-mb-24">Bienvenue sur mon portfolio !</h1>
       </Transition>
       <Transition name="slide2" appear>
-        <h2 class="c-text-xl u-text-white">Moi c'est <span class="c-hero__name">Alexis Flacher</span>, je suis
+        <h2 class="c-text-l u-text-white">Moi c'est <span class="c-hero__name">Alexis Flacher</span>, je suis
           <span class="c-hero__jobs">
                     <span v-for="item in me">{{ item }}</span>
                   </span>

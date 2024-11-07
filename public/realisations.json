@@ -1,42 +1,47 @@
 [
   {
     "id": 1,
+    "name": "bongenie",
     "title": "Bongénie",
-    "short-description": "Intégration du site de Bongénie avec Stimulus",
+    "shortDescription": "Intégration du site de Bongénie avec StimulusJs",
     "type": "pro",
-    "picture": "/images/bongenie-1.png",
-    "techno": "stimulus"
+    "pictures": ["/images/bongenie/bongenie-1.png", "/images/bongenie/bongenie-2.png", "/images/bongenie/bongenie-3.png", "/images/bongenie/bongenie-4.png"],
+    "technos": ["stimulus"]
   },
   {
     "id": 2,
+    "name": "daitem",
     "title": "Daitem",
-    "short-description": "",
+    "shortDescription": "Intégration du site Daitem pro et Daitem com avec Stimulus",
     "type": "pro",
-    "picture": "",
-    "techno": "stimulus"
+    "pictures": ["/images/bongenie-1.png"],
+    "technos": ["stimulus"]
   },
   {
     "id": 3,
+    "name": "clap",
     "title": "Clap",
-    "short-description": "",
+    "shortDescription": "Dev d'une plateforme type \"Allociné\" avec Vue, Algolia et l'api TMDB",
     "type": "perso",
-    "picture": "",
-    "techno": "vue"
+    "pictures": ["/images/bongenie-1.png"],
+    "technos": ["vue", "algolia"]
   },
   {
     "id": 4,
+    "name": "qui-veut-du-fromage",
     "title": "Qui veut du fromage ?",
-    "short-description": "",
+    "shortDescription": "Filiale du groupe Savencia, le dev à été réalisé avec React et Storybook",
     "type": "pro",
-    "picture": "",
-    "techno": "react"
+    "pictures": ["/images/bongenie-1.png"],
+    "technos": ["react", "storybook"]
   },
   {
     "id": 5,
+    "name": "balenciaga-sustainability",
     "title": "Balenciaga Sustainability",
-    "short-description": "",
+    "shortDescription": "Dev d'un petit site pour le groupe Balenciaga en React",
     "type": "pro",
-    "picture": "",
-    "techno": "react"
+    "pictures": ["/images/bongenie-1.png"],
+    "technos": ["react"]
   }
 ]

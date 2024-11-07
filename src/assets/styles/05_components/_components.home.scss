@@ -1,56 +1,80 @@
-@import "../01_settings/settings.spacing";
-@import "../01_settings/settings.media-queries";
+@use "../01_settings/settings.spacing";
+@use "../01_settings/settings.media-queries" as queries;
 
 .c-home {
   width: 100%;
   height: 100vh;
   background-color: var(--color-neutral-1);
-  background-size: $space-40 $space-40;
+  background-size: settings.$space-40 settings.$space-40;
   background-image: radial-gradient(circle, var(--color-neutral-2) .1rem, rgba(0, 0, 0, 0) .1rem);
 
-  @include min-width(lg) {
+  @include queries.min-width(lg) {
     overflow: hidden;
   }
 }
 
 .c-home__content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: $space-40;
+  gap: settings.$space-40;
+  height: 100vh;
 
-  @include max-width(lg) {
+  @include queries.min-width(lg) {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @include queries.max-width(lg) {
     flex-direction: column;
   }
 }
 
 .c-home__realisations {
-  @include min-width(lg) {
+  @include queries.min-width(lg) {
     transform: rotate(8deg);
   }
-  @include max-width(md) {
-    width: 100%;
+  @include queries.max-width(md) {
+    overflow: hidden;
+    margin-right: - settings.$space-20;
+    margin-left: - settings.$space-20;
+    padding: 0 settings.$space-20;
   }
 }
 
 .c-home__swiper {
-  padding: 6rem 0;
+  padding: 6rem 3rem;
   transition: .4s transform;
-}
 
-.swiper {
-  height: calc(100vh - 12rem)!important;
-}
+  @include queries.max-width(lg) {
+    padding: 0;
+  }
 
-.swiper-slide {
-  @include max-width(lg) {
-    width: 100%!important;
-    margin-bottom: $space-40;
+  .swiper {
+    overflow: visible;
+
+    @include queries.min-width(lg) {
+      height: calc(100vh - 12rem)!important;
+    }
+  }
+
+  .swiper-slide {
+    @include queries.min-width(lg) {
+      flex-shrink: inherit;
+    }
+
+    @include queries.max-width(lg) {
+      width: 90%!important;
+    }
   }
 }
 
 .home-test-enter-active {
   transform: translateY(100vh);
-  transition: 1s transform;
-  transition-delay: 2.8s;
+  transition: 1s all;
+  transition-delay: 2s;
+
+  @include queries.max-width(lg) {
+    transform: translateY(0);
+    opacity: 0;
+  }
 }
+

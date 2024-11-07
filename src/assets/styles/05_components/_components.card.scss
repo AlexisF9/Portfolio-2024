@@ -1,19 +1,19 @@
-@import "../01_settings/settings.spacing";
-@import "../01_settings/settings.media-queries";
+@use "../01_settings/settings.spacing";
+@use "../01_settings/settings.media-queries" as queries;
 
 .c-card {
-  width: 35rem;
+  width: 30rem;
   height: auto;
   border-radius: 1rem;
   background: linear-gradient(to right, #60d9f8, #3fb984);
 
-  @include max-width(md) {
+  @include queries.max-width(lg) {
     width: 100%;
     height: auto;
   }
 
   & > div {
-    padding: $space-20;
+    padding: settings.$space-20;
     height: 100%;
     background-color: white;
     border-radius: 1rem;
@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: $space-20;
+  margin-bottom: settings.$space-20;
 }
 
 .c-card__type {
@@ -43,13 +43,13 @@
 }
 
 .c-card__footer {
-  margin-top: $space-20;
+  margin-top: settings.$space-20;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 1rem;
 }
 
 .c-card__techno {
-  height: $space-40;
+  height: settings.$space-32;
   width: fit-content;
 }
