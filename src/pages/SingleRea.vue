@@ -22,6 +22,7 @@
 
 <script setup lang="ts">
 import {Ref, ref, watchEffect} from "vue";
+import rea from "../../public/realisations.json";
 import {useRoute} from "vue-router";
 import {Swiper, SwiperSlide} from "swiper/vue";
 import 'swiper/swiper-bundle.css';
@@ -37,16 +38,9 @@ const data: Ref<{
   technos: string[]
 } | undefined> = ref(undefined)
 
-const fetchData = async() => {
-  try {
-    const response = await fetch(`${import.meta.env.VITE_SITE_URL}/realisations.json`);
-    const element = await response.json();
-    data.value = element.find((el: any) => el.name === route.params.name)
-  } catch (err: any) {
-    console.log(err.toString())
-  }
-}
 watchEffect(() => {
-  fetchData()
+  if (rea) {
+    data.value = rea.find((el: any) => el.name === route.params.name)
+  }
 })
 </script>
