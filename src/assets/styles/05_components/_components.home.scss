@@ -109,7 +109,7 @@
     align-items: center;
     margin-top: settings.$space-56;
 
-    a:nth-child(odd) {
+    a:not(:last-child) {
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -122,8 +122,11 @@
 
   a:not(:last-child)::after {
     content: '•';
-    padding-left: 1rem;
-    margin-right: 1rem;
+
+    @include queries.min-width(lg) {
+      padding-left: 1rem;
+      margin-right: 1rem;
+    }
   }
 
   a:hover {
