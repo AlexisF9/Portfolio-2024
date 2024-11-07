@@ -70,20 +70,27 @@
   }
 }
 
-.home-test-enter-from {
+.home-test-enter-active {
+  @include queries.min-width(lg) {
+    transform: translateY(100vh);
+    transition: 1s all;
+    transition-delay: 2s;
+  }
+
   @include queries.max-width(lg) {
     opacity: 0;
+    animation: fade .4s ease-in-out 3s;
   }
 }
 
-.home-test-enter-active {
-  transform: translateY(100vh);
-  transition: 1s all;
-  transition-delay: 2s;
-
-  @include queries.max-width(lg) {
-    transform: translateY(0);
+@keyframes fade {
+  from {
     opacity: 0;
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
   }
 }
 
