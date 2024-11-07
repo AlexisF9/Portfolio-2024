@@ -70,6 +70,12 @@
   }
 }
 
+.home-test-enter-from {
+  @include queries.max-width(lg) {
+    opacity: 0;
+  }
+}
+
 .home-test-enter-active {
   transform: translateY(100vh);
   transition: 1s all;
