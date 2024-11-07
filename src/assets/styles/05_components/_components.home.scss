@@ -12,7 +12,7 @@
   }
 
   @include queries.max-width(lg) {
-    padding: settings.$space-40 0;
+    padding: settings.$space-40 0 settings.$space-64 0;
   }
 }
 
@@ -94,3 +94,31 @@
   }
 }
 
+.c-home__footer {
+  display: flex;
+  align-items: center;
+
+  @include queries.min-width(lg) {
+    position: absolute;
+    bottom: 4rem;
+    left: 4rem;
+  }
+
+  @include queries.max-width(lg) {
+    flex-direction: column;
+    align-items: center;
+    margin-top: settings.$space-56;
+
+    a:nth-child(odd) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  a:nth-child(odd)::after {
+    content: '•';
+    padding-left: 1rem;
+    margin-right: 1rem;
+  }
+}

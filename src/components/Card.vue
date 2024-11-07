@@ -9,9 +9,15 @@
         <p>{{ desc }}</p>
       </div>
       <div class="c-card__footer">
-        <img v-for="techno in technos" class="c-card__techno" :src="`/images/${getTechno(techno)}.png`" :alt="`Logo ${techno}`" />
+        <div>
+          <img v-for="techno in technos" class="c-card__techno" :src="`/images/${getTechno(techno)}.png`" :alt="`Logo ${techno}`" />
+        </div>
+        <RouterLink :to="{name: 'single-rea', params: {name: name}}" class="c-card__link">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4V20M12 20L8 16M12 20L16 16" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </RouterLink>
       </div>
-      <RouterLink :to="{name: 'single-rea', params: {name: name}}" class="u-sr-only">Voir plus</RouterLink>
     </div>
   </div>
 </template>
