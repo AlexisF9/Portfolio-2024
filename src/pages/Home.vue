@@ -42,7 +42,7 @@ import Hero from "../components/Hero.vue";
 import Card from "../components/Card.vue";
 import {Swiper, SwiperSlide} from "swiper/vue";
 import rea from '../../public/realisations.json';
-import 'swiper/css';
+import 'swiper/swiper-bundle.css';
 
 import {ref} from "vue";
 const data = ref(rea)

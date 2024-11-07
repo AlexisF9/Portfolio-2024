@@ -9,7 +9,7 @@
 
   @include queries.max-width(lg) {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   & > div {

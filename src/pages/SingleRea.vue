@@ -25,7 +25,7 @@ import {Ref, ref, watchEffect} from "vue";
 import rea from '../../public/realisations.json';
 import {useRoute} from "vue-router";
 import {Swiper, SwiperSlide} from "swiper/vue";
-import 'swiper/css';
+import 'swiper/swiper-bundle.css';
 const route = useRoute()
 
 const data: Ref<{
