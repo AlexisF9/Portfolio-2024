@@ -3,7 +3,6 @@
 
 .c-home {
   width: 100%;
-  height: 100vh;
   background-color: var(--color-neutral-1);
   background-size: settings.$space-40 settings.$space-40;
   background-image: radial-gradient(circle, var(--color-neutral-2) .1rem, rgba(0, 0, 0, 0) .1rem);
@@ -11,12 +10,15 @@
   @include queries.min-width(lg) {
     overflow: hidden;
   }
+
+  @include queries.max-width(lg) {
+    padding: settings.$space-40 0;
+  }
 }
 
 .c-home__content {
   display: flex;
   gap: settings.$space-40;
-  height: 100vh;
 
   @include queries.min-width(lg) {
     align-items: center;

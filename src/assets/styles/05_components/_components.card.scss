@@ -5,7 +5,14 @@
   width: 30rem;
   height: auto;
   border-radius: 1rem;
-  background: linear-gradient(to right, #60d9f8, #3fb984);
+
+  @include queries.min-width(lg) {
+    background: linear-gradient(to right, #60d9f8, #3fb984);
+
+    &:hover > div {
+      transform: translate(-10px, -10px);
+    }
+  }
 
   @include queries.max-width(lg) {
     width: 100%;
@@ -20,10 +27,6 @@
     transition: transform .2s ease-in-out;
     position: relative;
     overflow: hidden;
-  }
-
-  &:hover > div {
-    transform: translate(-10px, -10px);
   }
 }
 
