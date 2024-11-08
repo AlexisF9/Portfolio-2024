@@ -1,6 +1,6 @@
 <template>
   <div class="c-single-rea" v-if="data">
-    <div class="o-container">
+    <div class="o-container o-container--md">
       <RouterLink class="c-single-rea__back u-text-white" to="/">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 4V20M12 20L8 16M12 20L16 16" stroke="#60d9f8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
