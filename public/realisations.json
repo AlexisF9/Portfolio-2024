@@ -6,7 +6,9 @@
     "shortDescription": "Intégration du site de Bongénie avec StimulusJs",
     "type": "pro",
     "pictures": ["/images/bongenie/bongenie-1.png", "/images/bongenie/bongenie-2.png", "/images/bongenie/bongenie-3.png", "/images/bongenie/bongenie-4.png"],
-    "technos": ["stimulus"]
+    "technos": ["stimulus"],
+    "link": "https://www.bongenie.ch/fr_CH/",
+    "github": null
   },
   {
     "id": 2,
@@ -14,8 +16,10 @@
     "title": "Daitem",
     "shortDescription": "Intégration du site Daitem pro et Daitem com avec Stimulus",
     "type": "pro",
-    "pictures": ["/images/bongenie-1.png"],
-    "technos": ["stimulus"]
+    "pictures": ["/images/bongenie/bongenie-1.png"],
+    "technos": ["stimulus"],
+    "link": null,
+    "github": null
   },
   {
     "id": 3,
@@ -23,17 +27,21 @@
     "title": "Clap",
     "shortDescription": "Dev d'une plateforme type \"Allociné\" avec Vue, Algolia et l'api TMDB",
     "type": "perso",
-    "pictures": ["/images/bongenie-1.png"],
-    "technos": ["vue", "algolia"]
+    "pictures": ["/images/clap/clap-1.png", "/images/clap/clap-2.png", "/images/clap/clap-3.png", "/images/clap/clap-4.png", "/images/clap/clap-5.png"],
+    "technos": ["vue", "algolia"],
+    "link": "https://clap-plum.vercel.app/",
+    "github": "https://github.com/AlexisF9/Clap"
   },
   {
     "id": 4,
     "name": "qui-veut-du-fromage",
     "title": "Qui veut du fromage ?",
-    "shortDescription": "Filiale du groupe Savencia, le dev à été réalisé avec React et Storybook",
+    "shortDescription": "Filiale du groupe Savencia, le dev à été réalisé avec Next et Storybook",
     "type": "pro",
-    "pictures": ["/images/bongenie-1.png"],
-    "technos": ["react", "storybook"]
+    "pictures": ["/images/qvdf/qvdf-1.png", "/images/qvdf/qvdf-2.png", "/images/qvdf/qvdf-3.png", "/images/qvdf/qvdf-4.png", "/images/qvdf/qvdf-5.png", "/images/qvdf/qvdf-6.png"],
+    "technos": ["next", "storybook", "styled"],
+    "link": "https://www.quiveutdufromage.com/",
+    "github": null
   },
   {
     "id": 5,
@@ -41,7 +49,9 @@
     "title": "Balenciaga Sustainability",
     "shortDescription": "Dev d'un petit site pour le groupe Balenciaga en React",
     "type": "pro",
-    "pictures": ["/images/bongenie-1.png"],
-    "technos": ["react"]
+    "pictures": ["/images/bal/bal-1.png", "/images/bal/bal-2.png"],
+    "technos": ["react", "storybook", "styled"],
+    "link": "https://informationproduit.balenciaga.com/fr/product/725090TMO701000",
+    "github": null
   }
 ]

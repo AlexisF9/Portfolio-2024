@@ -3,9 +3,6 @@
 
 .c-home {
   width: 100%;
-  background-color: var(--color-neutral-1);
-  background-size: settings.$space-40 settings.$space-40;
-  background-image: radial-gradient(circle, var(--color-neutral-2) .1rem, rgba(0, 0, 0, 0) .1rem);
 
   @include queries.min-width(lg) {
     overflow: hidden;

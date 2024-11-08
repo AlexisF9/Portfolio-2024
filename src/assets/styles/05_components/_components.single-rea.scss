@@ -1,27 +1,89 @@
 @use "../01_settings/settings.spacing";
+@use "../01_settings/settings.media-queries" as queries;
 
 .c-single-rea {
   padding: settings.$space-56 0;
-}
 
-.c-single-rea__infos {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  margin-bottom: settings.$space-24;
+  @include queries.max-width(lg) {
+    padding: settings.$space-40 0;
+  }
 
-  & > div {
-    display: flex;
-    flex-direction: column;
-    gap: settings.$space-10;
+  .swiper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "slider slider"
+      "pagination navigation"
+    ;
+
+    @include queries.max-width(lg) {
+      grid-template-areas:
+        "slider slider"
+        "pagination pagination"
+      ;
+    }
+  }
+
+  .swiper-wrapper {
+    grid-area: slider;
+  }
+
+  .swiper-pagination {
+    position: static;
+    grid-area: pagination;
+    margin-top: settings.$space-10;
+
+    @include queries.min-width(lg) {
+      width: fit-content !important;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    background-color: white;
+  }
+
+  .c-single-rea__arrows {
+    grid-area: navigation;
+    margin-top: settings.$space-10;
   }
 }
 
+.c-single-rea__back {
+  background: linear-gradient(to right, #60d9f8, #3fb984);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  svg {
+    transform: rotate(90deg);
+  }
+}
+
+.c-single-rea__infos {
+  margin: settings.$space-40 0;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: settings.$space-12;
+}
+
+.c-single-rea__links {
+  display: flex;
+  align-items: center;
+  gap: settings.$space-20;
+}
+
 .c-single-rea__arrows {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: end;
-  margin-top: settings.$space-10;
+
+  @include queries.max-width(lg) {
+    display: none;
+  }
 
   .swiper-button-disabled {
     opacity: .5;
@@ -32,4 +94,22 @@
   svg {
     transform: rotate(180deg);
   }
+}
+
+.c-single-rea__technos {
+  margin-top: settings.$space-40;
+  display: flex;
+  flex-direction: column;
+  gap: settings.$space-20;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.c-single-rea__techno {
+  height: settings.$space-40;
+  max-width: fit-content;
 }
