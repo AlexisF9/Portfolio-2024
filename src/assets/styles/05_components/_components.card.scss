@@ -4,7 +4,7 @@
 .c-card {
   width: 30rem;
   height: auto;
-  border-radius: 1rem;
+  border-radius: var(--radius-md);
 
   @include queries.min-width(lg) {
     background: linear-gradient(to right, #60d9f8, #3fb984);
@@ -24,7 +24,7 @@
   padding: settings.$space-20;
   height: 100%;
   background-color: white;
-  border-radius: 1rem;
+  border-radius: var(--radius-md);
   transition: transform .2s ease-in-out;
   position: relative;
   overflow: hidden;

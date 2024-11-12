@@ -1,5 +1,24 @@
 <script setup lang="ts">
 const me = ["dev front-end", "intégrateur", "grand fan de café"]
+
+const logos = [
+  {
+    name: "react",
+    label: "ReactJS"
+  },
+  {
+    name: "next",
+    label: "NextJS"
+  },
+  {
+    name: "vue",
+    label: "VueJS"
+  },
+  {
+    name: "stimulus",
+    label: "Stimulus"
+  }
+]
 </script>
 
 <template>
@@ -21,10 +40,9 @@ const me = ["dev front-end", "intégrateur", "grand fan de café"]
     </div>
     <Transition name="slide3" appear>
       <div class="c-hero__logos">
-        <img class="c-hero__logo" :height="40" src="/images/logo-react.png" alt="Logo React" />
-        <img class="c-hero__logo" :height="40" src="/images/logo-next.png" alt="Logo Next" />
-        <img class="c-hero__logo" :height="40" src="/images/logo-vue.png" alt="Logo Vue" />
-        <img class="c-hero__logo" :height="40" src="/images/logo-stimulus.png" alt="Logo Stimulus" />
+        <div class="c-hero__logo" v-for="logo in logos" :data-tooltip="logo.label">
+          <img :height="40" :src="`/images/logo-${logo.name}.png`" :alt="`Logo ${logo.label}`" />
+        </div>
       </div>
     </Transition>
   </section>

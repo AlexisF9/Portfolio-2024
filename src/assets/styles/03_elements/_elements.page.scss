@@ -1,5 +1,6 @@
 @use "../01_settings/settings.typography";
 @use "../01_settings/settings.spacing" as spacing;
+@use "../01_settings/settings.typography" as typo;
 
 :root {
   --vh: 1vh;
@@ -23,4 +24,15 @@ body {
     opacity: 0.5!important;
     pointer-events: none!important;
   }
+}
+
+[data-tooltip]:hover::after {
+  display: block;
+  position: absolute;
+  content: attr(data-tooltip);
+  background: var(--color-neutral-2);
+  padding: .5rem;
+  border-radius: var(--radius-sm);
+  top: calc(100% + .5rem);
+  @include typo.text('text-s', var(--text-white));
 }

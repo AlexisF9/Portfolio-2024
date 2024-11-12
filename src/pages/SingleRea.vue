@@ -10,7 +10,7 @@
       <div class="c-single-rea__infos">
         <div>
           <h1 class="c-h-xl u-text-white u-mb-12">{{ data.title }}</h1>
-          <p class="c-text-l u-text-light">{{ data.shortDescription }}</p>
+          <p class="c-text-l u-text-light">{{ data.description }}</p>
         </div>
 
         <div class="c-single-rea__links" v-if="data.github || data.link">
@@ -57,9 +57,8 @@
         </div>
       </Swiper>
       <div class="c-single-rea__technos">
-        <p class="c-text-l u-text-white">{{ data.technos.length > 1 ? "Technos utilisés" : "Techno utilisé" }}:</p>
-        <div>
-          <img v-for="techno in data.technos" class="c-single-rea__techno" :src="`/images/${getTechno(techno)}.png`" :alt="`Logo ${techno}`" />
+        <div class="c-single-rea__techno" v-for="techno in data.technos" :data-tooltip="techno.label">
+          <img :src="`/images/${getTechno(techno.name)}.png`" :alt="`Logo ${techno}`" />
         </div>
       </div>
     </div>
@@ -79,10 +78,10 @@ const data: Ref<{
   id: number,
   name: string,
   title: string,
-  shortDescription: string,
+  description: string,
   type: string,
   pictures: string[],
-  technos: string[],
+  technos: {name: string, label: string}[],
   link: string | null,
   github: string | null,
 } | undefined> = ref(undefined)

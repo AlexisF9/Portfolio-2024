@@ -10,7 +10,7 @@
       </div>
       <div class="c-card__footer">
         <div>
-          <img v-for="techno in technos" class="c-card__techno" :src="`/images/${getTechno(techno)}.png`" :alt="`Logo ${techno}`" />
+          <img v-for="techno in technos" class="c-card__techno" :src="`/images/${getTechno(techno.name)}.png`" :alt="`Logo ${techno.label}`" />
         </div>
         <RouterLink :to="{name: 'single-rea', params: {name: name}}" class="c-card__link">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +27,7 @@ interface Props {
   name: string
   title: string,
   type: string,
-  technos: string[],
+  technos: {name: string, label: string}[],
   desc: string
 }
 defineProps<Props>()

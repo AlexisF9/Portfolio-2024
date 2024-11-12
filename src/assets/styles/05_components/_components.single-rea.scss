@@ -99,17 +99,15 @@
 .c-single-rea__technos {
   margin-top: settings.$space-40;
   display: flex;
-  flex-direction: column;
-  gap: settings.$space-20;
-
-  & > div {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
+  align-items: center;
+  gap: 1rem;
 }
 
 .c-single-rea__techno {
-  height: settings.$space-40;
-  max-width: fit-content;
+  position: relative;
+
+  img {
+    height: settings.$space-40;
+    max-width: fit-content;
+  }
 }

@@ -3,10 +3,15 @@
     "id": 1,
     "name": "bongenie",
     "title": "Bongénie",
-    "shortDescription": "Intégration du site de Bongénie avec StimulusJs",
+    "description": "Intégration du site de Bongénie avec StimulusJs",
     "type": "pro",
     "pictures": ["/images/bongenie/bongenie-1.png", "/images/bongenie/bongenie-2.png", "/images/bongenie/bongenie-3.png", "/images/bongenie/bongenie-4.png"],
-    "technos": ["stimulus"],
+    "technos": [
+      {
+        "name": "stimulus",
+        "label": "StimulusJS"
+      }
+    ],
     "link": "https://www.bongenie.ch/fr_CH/",
     "github": null
   },
@@ -14,10 +19,15 @@
     "id": 2,
     "name": "daitem",
     "title": "Daitem",
-    "shortDescription": "Intégration du site Daitem pro et Daitem com avec Stimulus",
+    "description": "Intégration du site Daitem pro et Daitem com avec Stimulus",
     "type": "pro",
     "pictures": ["/images/bongenie/bongenie-1.png"],
-    "technos": ["stimulus"],
+    "technos": [
+      {
+        "name": "stimulus",
+        "label": "StimulusJS"
+      }
+    ],
     "link": null,
     "github": null
   },
@@ -25,10 +35,19 @@
     "id": 3,
     "name": "clap",
     "title": "Clap",
-    "shortDescription": "Dev d'une plateforme type \"Allociné\" avec Vue, Algolia et l'api TMDB",
+    "description": "Pour approfondir mes connaissances sur VueJS j'ai dev un site type \"Allociné\" avec l'api TMDB",
     "type": "perso",
     "pictures": ["/images/clap/clap-1.png", "/images/clap/clap-2.png", "/images/clap/clap-3.png", "/images/clap/clap-4.png", "/images/clap/clap-5.png"],
-    "technos": ["vue", "algolia"],
+    "technos": [
+      {
+        "name": "vue",
+        "label": "VueJS"
+      },
+      {
+        "name": "algolia",
+        "label": "Algolia"
+      }
+    ],
     "link": "https://clap-plum.vercel.app/",
     "github": "https://github.com/AlexisF9/Clap"
   },
@@ -36,10 +55,19 @@
     "id": 4,
     "name": "qui-veut-du-fromage",
     "title": "Qui veut du fromage ?",
-    "shortDescription": "Filiale du groupe Savencia, le dev à été réalisé avec Next et Storybook",
+    "description": "Refonte du site de \"Qui veut du fromage ?\", une filiale du groupe Savencia",
     "type": "pro",
     "pictures": ["/images/qvdf/qvdf-1.png", "/images/qvdf/qvdf-2.png", "/images/qvdf/qvdf-3.png", "/images/qvdf/qvdf-4.png", "/images/qvdf/qvdf-5.png", "/images/qvdf/qvdf-6.png"],
-    "technos": ["next", "storybook", "styled"],
+    "technos": [
+      {
+        "name": "next",
+        "label": "NextJS"
+      },
+      {
+        "name": "storybook",
+        "label": "Storybook"
+      }
+    ],
     "link": "https://www.quiveutdufromage.com/",
     "github": null
   },
@@ -47,11 +75,72 @@
     "id": 5,
     "name": "balenciaga-sustainability",
     "title": "Balenciaga Sustainability",
-    "shortDescription": "Dev d'un petit site pour le groupe Balenciaga en React",
+    "description": "Dev d'un petit site pour donner les infos légales d'un produit pour Balenciaga",
     "type": "pro",
     "pictures": ["/images/bal/bal-1.png", "/images/bal/bal-2.png"],
-    "technos": ["react", "storybook", "styled"],
+    "technos": [
+      {
+        "name": "react",
+        "label": "ReactJS"
+      },
+      {
+        "name": "storybook",
+        "label": "Storybook"
+      }
+    ],
     "link": "https://informationproduit.balenciaga.com/fr/product/725090TMO701000",
     "github": null
+  },
+  {
+    "id": 6,
+    "name": "gmf",
+    "title": "Landing GMF",
+    "description": "Dev d'une landing page pour GMF lors de mon alternance chez TBWA/Paris",
+    "type": "pro",
+    "pictures": ["/images/gmf/gmf.png", "/images/gmf/gmf2.png", "/images/gmf/gmf3.png"],
+    "technos": [
+      {
+        "name": "next",
+        "label": "NextJS"
+      }
+    ],
+    "link": null,
+    "github": null
+  },
+  {
+    "id": 7,
+    "name": "izicarte",
+    "title": "La caisse d'épargne",
+    "description": "Dev d'un mini-jeu de noël pour La Caisse d'Épargne lors de mon alternance chez TBWA/Paris",
+    "type": "pro",
+    "pictures": ["/images/izicarte/izicarte.png", "/images/izicarte/izicarte2.png", "/images/izicarte/izicarte3.png"],
+    "technos": [
+      {
+        "name": "next",
+        "label": "NextJS"
+      }
+    ],
+    "link": null,
+    "github": null
+  },
+  {
+    "id": 8,
+    "name": "myimmo",
+    "title": "My Immo",
+    "description": "La même année que mon alternance, pour tester le CMS Strapi et l'authentification avec JWT j'ai dev un blog type \"Se Loger\"",
+    "type": "perso",
+    "pictures": ["/images/myimmo/myimmo.png", "/images/myimmo/myimmo2.png", "/images/myimmo/myimmo3.png"],
+    "technos": [
+      {
+        "name": "next",
+        "label": "NextJS"
+      },
+      {
+        "name": "strapi",
+        "label": "Strapi"
+      }
+    ],
+    "link": null,
+    "github": "https://github.com/AlexisF9/MyImmo"
   }
 ]

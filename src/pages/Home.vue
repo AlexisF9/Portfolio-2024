@@ -25,7 +25,7 @@
                       :title="item.title"
                       :type="item.type"
                       :technos="item.technos"
-                      :desc="item.shortDescription"
+                      :desc="item.description"
                   />
                 </SwiperSlide>
               </Swiper>
