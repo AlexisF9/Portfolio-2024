@@ -1,4 +1,3 @@
-@use "../01_settings/settings.media-queries" as settings2;
 @use "../01_settings/settings.typography";
 
 .c-text-xl {
@@ -13,30 +12,6 @@
   @include settings.text('text-m');
 }
 
-.c-text-m-desk {
-  @include settings2.min-width(md) {
-    @include settings.text('text-m');
-  }
-}
-
-.c-text-m-mob {
-  @include settings2.max-width(md) {
-    @include settings.text('text-m');
-  }
-}
-
 .c-text-s {
   @include settings.text('text-s');
-}
-
-.c-text-s-desk {
-  @include settings2.min-width(md) {
-    @include settings.text('text-s');
-  }
-}
-
-.c-text-s-mob {
-  @include settings2.max-width(md) {
-    @include settings.text('text-s');
-  }
 }

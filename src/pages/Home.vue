@@ -8,6 +8,8 @@
             <div class="c-home__swiper">
               <Swiper
                   slides-per-view="auto"
+                  :mousewheel="true"
+                  :modules=[Mousewheel]
                   :breakpoints="{
                     '320': {
                       direction: 'horizontal',
@@ -48,6 +50,7 @@ import Card from "../components/Card.vue";
 import {Swiper, SwiperSlide} from "swiper/vue";
 import rea from '../../public/realisations.json';
 import 'swiper/swiper-bundle.css';
+import { Mousewheel } from 'swiper/modules';
 
 import {ref} from "vue";
 const data = ref(rea)

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const me = ["dev front-end", "intégrateur", "grand fan de café"]
+const me = ["développeur front JS", "intégrateur web", "junior"]
 
 const logos = [
   {
@@ -33,8 +33,8 @@ const logos = [
       <Transition name="slide2" appear>
         <h2 class="c-text-l u-text-white">Moi c'est <span class="c-hero__name">Alexis Flacher</span>, je suis
           <span class="c-hero__jobs">
-                    <span v-for="item in me">{{ item }}</span>
-                  </span>
+            <span v-for="item in me">{{ item }}</span>
+          </span>
         </h2>
       </Transition>
     </div>

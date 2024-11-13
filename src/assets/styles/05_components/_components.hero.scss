@@ -13,7 +13,7 @@
 }
 
 .c-hero__name {
-  background: linear-gradient(to right, #60d9f8, #3fb984);
+  background: var(--color-gradient);
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -28,7 +28,7 @@
 
   > span {
     animation: slide 6s ease 4s infinite;
-    background: linear-gradient(to right, #60d9f8, #3fb984);
+    background: var(--color-gradient);
     background-clip: text;
     text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -51,7 +51,6 @@
 .c-hero__me {
   margin-bottom: settings.$space-40;
   border-radius: 30rem;
-  border: 1px solid #545454;
 
   @include queries.max-width(lg) {
     max-width: 20rem;

@@ -21,14 +21,14 @@
     "title": "Daitem",
     "description": "Intégration du site Daitem pro et Daitem com avec Stimulus",
     "type": "pro",
-    "pictures": ["/images/bongenie/bongenie-1.png"],
+    "pictures": ["/images/daitem/daitem-1.png", "/images/daitem/daitem-2.png", "/images/daitem/daitem-3.png", "/images/daitem/daitem-4.png", "/images/daitem/daitem-5.png", "/images/daitem/daitem-6.png", "/images/daitem/daitem-7.png"],
     "technos": [
       {
         "name": "stimulus",
         "label": "StimulusJS"
       }
     ],
-    "link": null,
+    "link": "https://daitem.com/fr",
     "github": null
   },
   {

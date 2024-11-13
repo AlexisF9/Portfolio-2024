@@ -15,16 +15,6 @@
   } @else if $level == 'h-l' {
     font-size: 2.2rem;
     line-height: 2.8rem;
-  } @else if $level == 'caps-m' {
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    letter-spacing: 3.2px;
-    text-transform: uppercase;
-  } @else if $level == 'caps-s' {
-    font-size: 1.4rem;
-    line-height: 2.2rem;
-    text-transform: uppercase;
-    letter-spacing: 2.8px;
   } @else if $level == 'text-xl' {
     font-size: 3rem;
     line-height: 3.2rem;
