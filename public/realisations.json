@@ -3,7 +3,7 @@
     "id": 1,
     "name": "bongenie",
     "title": "Bongénie",
-    "description": "Intégration du site de Bongénie avec StimulusJs",
+    "description": "Intégration du site de Bongénie, une marque suisse type \"Galeries Lafayette\".",
     "type": "pro",
     "pictures": ["/images/bongenie/bongenie-1.png", "/images/bongenie/bongenie-2.png", "/images/bongenie/bongenie-3.png", "/images/bongenie/bongenie-4.png"],
     "technos": [
@@ -19,7 +19,7 @@
     "id": 2,
     "name": "daitem",
     "title": "Daitem",
-    "description": "Intégration du site Daitem pro et Daitem com avec Stimulus",
+    "description": "Intégration des sites Daitem (pro et com) qui est un fournisseur de systèmes de sécurité et filiale du groupe Atraltech.",
     "type": "pro",
     "pictures": ["/images/daitem/daitem-1.png", "/images/daitem/daitem-2.png", "/images/daitem/daitem-3.png", "/images/daitem/daitem-4.png", "/images/daitem/daitem-5.png", "/images/daitem/daitem-6.png", "/images/daitem/daitem-7.png"],
     "technos": [
@@ -35,7 +35,7 @@
     "id": 3,
     "name": "clap",
     "title": "Clap",
-    "description": "Pour approfondir mes connaissances sur VueJS j'ai dev un site type \"Allociné\" avec l'api TMDB",
+    "description": "Pour approfondir mes connaissances en VueJS j'ai dev un site type \"Allociné\" avec l'api TMDB.",
     "type": "perso",
     "pictures": ["/images/clap/clap-1.png", "/images/clap/clap-2.png", "/images/clap/clap-3.png", "/images/clap/clap-4.png", "/images/clap/clap-5.png"],
     "technos": [
@@ -55,7 +55,7 @@
     "id": 4,
     "name": "qui-veut-du-fromage",
     "title": "Qui veut du fromage ?",
-    "description": "Refonte du site de \"Qui veut du fromage ?\", une filiale du groupe Savencia",
+    "description": "Refonte du site de \"Qui veut du fromage ?\", une filiale du groupe Savencia.",
     "type": "pro",
     "pictures": ["/images/qvdf/qvdf-1.png", "/images/qvdf/qvdf-2.png", "/images/qvdf/qvdf-3.png", "/images/qvdf/qvdf-4.png", "/images/qvdf/qvdf-5.png", "/images/qvdf/qvdf-6.png"],
     "technos": [
@@ -75,7 +75,7 @@
     "id": 5,
     "name": "balenciaga-sustainability",
     "title": "Balenciaga Sustainability",
-    "description": "Dev d'un petit site pour donner les infos légales d'un produit pour Balenciaga",
+    "description": "Dev d'un petit site pour Balenciaga qui sert à donner les infos légales d'un produit (composition, caractéristiques...etc).",
     "type": "pro",
     "pictures": ["/images/bal/bal-1.png", "/images/bal/bal-2.png"],
     "technos": [
@@ -111,7 +111,7 @@
     "id": 7,
     "name": "izicarte",
     "title": "La caisse d'épargne",
-    "description": "Dev d'un mini-jeu de noël pour La Caisse d'Épargne lors de mon alternance chez TBWA/Paris",
+    "description": "Dev d'un mini-jeu de noël pour La Caisse d'Épargne lors de mon alternance.",
     "type": "pro",
     "pictures": ["/images/izicarte/izicarte.png", "/images/izicarte/izicarte2.png", "/images/izicarte/izicarte3.png"],
     "technos": [
@@ -127,7 +127,7 @@
     "id": 8,
     "name": "myimmo",
     "title": "My Immo",
-    "description": "La même année que mon alternance, pour tester le CMS Strapi et l'authentification avec JWT j'ai dev un blog type \"Se Loger\"",
+    "description": "La même année que mon alternance, pour tester le CMS Strapi et l'authentification avec JWT j'ai créé un site type \"Se Loger\".",
     "type": "perso",
     "pictures": ["/images/myimmo/myimmo.png", "/images/myimmo/myimmo2.png", "/images/myimmo/myimmo3.png"],
     "technos": [
