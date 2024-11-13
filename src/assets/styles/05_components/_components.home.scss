@@ -67,7 +67,7 @@
   }
 }
 
-.home-test-enter-active {
+.home-slider-enter-active {
   @include queries.min-width(lg) {
     transform: translateY(100vh);
     transition: 1s all;

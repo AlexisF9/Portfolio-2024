@@ -4,7 +4,7 @@
       <div class="c-home__content">
         <Hero/>
         <div class="c-home__realisations">
-          <Transition name="home-test" appear>
+          <Transition name="home-slider" appear>
             <div class="c-home__swiper">
               <Swiper
                   slides-per-view="auto"
@@ -37,9 +37,10 @@
       </div>
     </div>
     <div class="c-home__footer">
-      <a href="https://github.com/AlexisF9" target="_blank" class="c-text-m u-text-white">Voir mon GitHub</a>
+      <a href="https://github.com/AlexisF9" target="_blank" class="c-text-m u-text-white">GitHub</a>
       <a href="https://www.linkedin.com/in/alexis-flacher-772ba7197/" target="_blank" class="c-text-m u-text-white">LinkedIn</a>
       <a href="mailto:alexis.flacher38@gmail.com" class="c-text-m u-text-white">Me contacter</a>
+      <a href="/alexis-flacher-cv.pdf" target="_blank" class="c-text-m u-text-white">Mon CV</a>
     </div>
   </div>
 </template>
