@@ -61,18 +61,31 @@
 }
 
 .c-single-rea__infos {
-  margin: settings.$space-40 0;
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: settings.$space-12;
+  margin: settings.$space-40 0 settings.$space-24 0;
+
+  h1 {
+      display: flex;
+      align-items: center;
+      gap: settings.$space-12;
+      flex-wrap: wrap;
+  }
+
+  //& > div {
+  //  margin-bottom: settings.$space-12;
+  //  display: flex;
+  //  align-items: center;
+  //  justify-content: space-between;
+  //  flex-wrap: wrap;
+  //  gap: settings.$space-8;
+  //}
 }
 
 .c-single-rea__links {
   display: flex;
   align-items: center;
-  gap: settings.$space-20;
+  gap: settings.$space-12;
+  justify-content: end;
+  margin-bottom: settings.$space-12;
 }
 
 .c-single-rea__arrows {
@@ -97,7 +110,7 @@
 }
 
 .c-single-rea__technos {
-  margin-top: settings.$space-24;
+  margin-bottom: settings.$space-24;
   display: flex;
   align-items: center;
   gap: 1rem;

@@ -34,5 +34,6 @@ body {
   padding: .5rem;
   border-radius: var(--radius-sm);
   top: calc(100% + .5rem);
+  z-index: 2;
   @include typo.text('text-s', var(--text-white));
 }
