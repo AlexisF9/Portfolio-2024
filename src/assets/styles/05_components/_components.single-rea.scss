@@ -69,15 +69,6 @@
       gap: settings.$space-12;
       flex-wrap: wrap;
   }
-
-  //& > div {
-  //  margin-bottom: settings.$space-12;
-  //  display: flex;
-  //  align-items: center;
-  //  justify-content: space-between;
-  //  flex-wrap: wrap;
-  //  gap: settings.$space-8;
-  //}
 }
 
 .c-single-rea__links {
@@ -103,10 +94,8 @@
   }
 }
 
-.c-single-rea__prev {
-  svg {
-    transform: rotate(180deg);
-  }
+.c-single-rea__prev svg {
+  transform: rotate(180deg);
 }
 
 .c-single-rea__technos {
