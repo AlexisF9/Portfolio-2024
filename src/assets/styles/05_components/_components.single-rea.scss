@@ -48,6 +48,16 @@
   }
 }
 
+.opacity-enter-active,
+.opacity-leave-active {
+  transition: opacity .5s ease-in-out;
+}
+
+.opacity-enter-from,
+.opacity-leave-to {
+  opacity: 0;
+}
+
 .c-single-rea__back {
   background: var(--color-gradient);
   background-clip: text;

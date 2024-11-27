@@ -91,6 +91,11 @@
   }
 }
 
+.home-footer-enter-active {
+  opacity: 0;
+  animation: fade .4s ease-in-out 3s;
+}
+
 .c-home__footer {
   display: flex;
   align-items: center;
