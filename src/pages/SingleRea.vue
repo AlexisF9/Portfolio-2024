@@ -81,6 +81,7 @@
         </div>
         <Swiper
           :slides-per-view="1"
+          :loop="true"
           :pagination="true"
           :space-between="20"
           :modules="[Navigation, Pagination]"
