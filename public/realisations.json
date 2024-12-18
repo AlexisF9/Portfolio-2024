@@ -1,25 +1,9 @@
 [
   {
     "id": 0,
-    "name": "griddy",
-    "title": "Griddy",
-    "shortDescription": "Développement d'une plateforme de gestion des tâches.",
-    "description": "Griddy est une plateforme de création et de gestion de tâches, développé en React. Je me suis notamment inspiré de plateformes similaire (comme Jira, Trello..etc) et d'un ancien test technique. Griddy fonctionne en local, les données sont enregistrées dans le localstorage du navigateur. J'utilise Zustand pour la gestion de l'état, j'utilise également React Router et SortableJs pour le drag and drop.",
-    "type": "perso",
-    "pictures": ["/images/griddy/griddy-1.png", "/images/griddy/griddy-2.png", "/images/griddy/griddy-3.png", "/images/griddy/griddy-4.png", "/images/griddy/griddy-5.png", "/images/griddy/griddy-6.png", "/images/griddy/griddy-7.png", "/images/griddy/griddy-8.png"],
-    "technos": [
-      {
-        "name": "react",
-        "label": "ReactJS"
-      }
-    ],
-    "link": "https://griddy-pi.vercel.app/",
-    "github": null
-  },
-  {
-    "id": 1,
     "name": "bongenie",
     "title": "Bongénie",
+    "date": "2024",
     "shortDescription": "Intégration du site e-commerce de Bongénie, une marque suisse type \"Galeries Lafayette\".",
     "description": "Bongénie est une marque suisse type \"Galeries Lafayette\" de vente de produits de luxe. J'ai réalisé l'intégration en collaboration avec un collègue intégrateur en utilisant StimulusJS, un mini framework js léger qui permet de créer du code js réutilisable facilement.",
     "type": "pro",
@@ -34,9 +18,10 @@
     "github": null
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "daitem",
     "title": "Daitem",
+    "date": "2024",
     "shortDescription": "Intégration des sites Daitem, fournisseur de systèmes de sécurité et filiale du groupe Atraltech.",
     "description": "Daitem est un fournisseur de systèmes de sécurité et filiale du groupe Atraltech. J'ai réalisé l'intégration des sites \"Daitem pro\", accecibles par les insrtallateurs pour commander les produits, et \"daitem com\", accessibles par tout le monde pour présenter la marque.",
     "type": "pro",
@@ -51,9 +36,10 @@
     "github": null
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "clap",
     "title": "Clap",
+    "date": "2024",
     "shortDescription": "Pour approfondir mes connaissances en VueJS j'ai dev un site type \"Allociné\" avec l'api TMDB.",
     "description": "Pour approfondir mes connaissances en VueJS j'ai dev un site type \"Allociné\" en utilisant l'api TMDB. J'ai pu également avoir une première expérience avec Algolia pour ma page recherche. J'ai créé un script qui permet d'envoyer des données à la base d'Algolia pour pouvoir ensuite réaliser une recherche poussé an utilisant des facets.",
     "type": "perso",
@@ -72,9 +58,28 @@
     "github": "https://github.com/AlexisF9/Clap"
   },
   {
+    "id": 3,
+    "name": "griddy",
+    "title": "Griddy",
+    "date": "2024",
+    "shortDescription": "Développement d'une plateforme de gestion des tâches. Le site est encore en développement mais vous pouvez visiter la v1.",
+    "description": "Griddy est une plateforme de création et de gestion de tâches, développé en React. Je me suis notamment inspiré de plateformes similaire (comme Jira, Trello..etc) et d'un ancien test technique. Griddy fonctionne en local, les données sont enregistrées dans le localstorage du navigateur. J'utilise Zustand pour la gestion de l'état, j'utilise également React Router et SortableJs pour le drag and drop.",
+    "type": "perso",
+    "pictures": ["/images/griddy/griddy-1.png", "/images/griddy/griddy-2.png", "/images/griddy/griddy-3.png", "/images/griddy/griddy-4.png", "/images/griddy/griddy-5.png", "/images/griddy/griddy-6.png", "/images/griddy/griddy-7.png", "/images/griddy/griddy-8.png"],
+    "technos": [
+      {
+        "name": "react",
+        "label": "ReactJS"
+      }
+    ],
+    "link": "https://griddy-pi.vercel.app/",
+    "github": null
+  },
+  {
     "id": 4,
     "name": "qui-veut-du-fromage",
     "title": "Qui veut du fromage ?",
+    "date": "2023",
     "shortDescription": "Refonte du site de \"Qui veut du fromage ?\", une filiale du groupe Savencia.",
     "description": "Refonte du site de \"Qui veut du fromage ?\", une filiale du groupe Savencia.",
     "type": "pro",
@@ -96,6 +101,7 @@
     "id": 5,
     "name": "balenciaga-sustainability",
     "title": "Balenciaga Sustainability",
+    "date": "2023",
     "shortDescription": "Dev d'un site pour Balenciaga qui sert à donner les infos légales d'un produit",
     "description": "Dev d'un site pour Balenciaga qui sert à donner les infos légales d'un produit en scannant directement le code barre sur mobile ou en rentrant manuellement l'id du produit ou le numéro du code barre.",
     "type": "pro",
@@ -117,6 +123,7 @@
     "id": 6,
     "name": "gmf",
     "title": "Landing GMF",
+    "date": "2022",
     "shortDescription": "Dev d'une landing page pour GMF lors de mon alternance chez TBWA/Paris",
     "description": "Dev d'une landing page pour GMF lors de mon alternance chez TBWA/Paris",
     "type": "pro",
@@ -134,6 +141,7 @@
     "id": 7,
     "name": "izicarte",
     "title": "La caisse d'épargne",
+    "date": "2022",
     "shortDescription": "Dev d'un mini-jeu de Noël pour La Caisse d'Épargne lors de mon alternance.",
     "description": "Lors de mon alternance, j'ai pu dev un mini-jeu de Noël pour La Caisse d'Épargne. Le but du jeu est de retrouver des élements cachés dans une vitrine de Noël pour pouvoir s'inscrire à un tirage au sort.",
     "type": "pro",
@@ -151,6 +159,7 @@
     "id": 8,
     "name": "myimmo",
     "title": "My Immo",
+    "date": "2021",
     "shortDescription": "La même année que mon alternance, pour tester le CMS Strapi et l'authentification avec JWT j'ai créé un site type \"Se Loger\".",
     "description": "La même année que mon alternance, pour tester le CMS Strapi et une authentification avec JWT sur React et Next j'ai créé un site type \"Se Loger\". Le \"back\" est réalisé sur Strapi qui me renvoie une API sur laquelle je connecte mon front.",
     "type": "perso",

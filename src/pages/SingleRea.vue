@@ -26,6 +26,7 @@
               {{ data.title }}
             </h1>
             <div class="c-single-rea__links">
+              <p class="c-text-m u-text-white">{{ data.date }}</p>
               <span class="c-card__type c-text-s u-text-white">{{
                 data.type === "perso" ? "Projet perso" : "Projet pro"
               }}</span>
@@ -158,6 +159,7 @@ const data: Ref<
       title: string;
       shortDescription: string;
       description: string;
+      date: string;
       type: string;
       pictures: string[];
       technos: { name: string; label: string }[];

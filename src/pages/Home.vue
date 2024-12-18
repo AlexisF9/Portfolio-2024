@@ -28,6 +28,7 @@
                     :type="item.type"
                     :technos="item.technos"
                     :desc="item.shortDescription"
+                    :date="item.date"
                   />
                 </SwiperSlide>
               </Swiper>

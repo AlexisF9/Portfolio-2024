@@ -36,9 +36,16 @@
 .c-card__title {
   display: flex;
   align-items: center;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: settings.$space-20;
+}
+
+.c-card__infos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .c-card__type {
