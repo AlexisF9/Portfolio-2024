@@ -63,7 +63,7 @@
     "title": "Griddy",
     "date": "2024",
     "shortDescription": "Développement d'une plateforme de gestion des tâches. Le site est encore en développement mais vous pouvez visiter la v1.",
-    "description": "Griddy est une plateforme de création et de gestion de tâches, développé en React. Je me suis notamment inspiré de plateformes similaire (comme Jira, Trello..etc) et d'un ancien test technique. Griddy fonctionne en local, les données sont enregistrées dans le localstorage du navigateur. J'utilise Zustand pour la gestion de l'état, j'utilise également React Router et SortableJs pour le drag and drop.",
+    "description": "Griddy est une plateforme de création et de gestion de tâches, développé en React. Je me suis notamment inspiré de plateformes similaire (comme Jira, Trello..etc) et d'un ancien test technique. Griddy fonctionne en local, les données sont enregistrées dans le localstorage du navigateur. J'utilise Zustand pour la gestion de l'état.",
     "type": "perso",
     "pictures": ["/images/griddy/griddy-1.png", "/images/griddy/griddy-2.png", "/images/griddy/griddy-3.png", "/images/griddy/griddy-4.png", "/images/griddy/griddy-5.png", "/images/griddy/griddy-6.png", "/images/griddy/griddy-7.png", "/images/griddy/griddy-8.png"],
     "technos": [
