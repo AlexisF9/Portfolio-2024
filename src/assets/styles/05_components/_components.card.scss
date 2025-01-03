@@ -2,13 +2,15 @@
 @use "../01_settings/settings.media-queries" as queries;
 
 .c-card {
-  width: 30rem;
+  width: 35rem;
   height: auto;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
 
   @include queries.min-width(lg) {
-    background: linear-gradient(to right, #60d9f8, #3fb984);
-
+    //background: linear-gradient(to right, #60d9f8, #3fb984);
+    //background-color: gray;
+    box-shadow: 0 0 0 2px inset var(--color-neutral-0-50);
+    
     &:hover > .c-card__content {
       transform: translate(-10px, -10px);
     }
@@ -21,16 +23,19 @@
 }
 
 .c-card__content {
-  padding: settings.$space-20;
   height: 100%;
   background-color: white;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   transition: transform .2s ease-in-out;
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  & > div:not(.c-card__footer) {
+    padding: settings.$space-20 settings.$space-20 0 settings.$space-20;
+  }
 }
 
 .c-card__title {
@@ -60,6 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 settings.$space-20 settings.$space-20 settings.$space-20;
 
   & > div {
     display: flex;

@@ -48,12 +48,11 @@
     display: flex;
     align-items: center;
     gap: settings.$space-12;
-
-    
   }
+  
   @include queries.min-width(lg) {
-      padding-top: settings.$space-40;
-    }
+    padding-top: settings.$space-40;
+  }
 
   button {
     opacity: .5;

@@ -1,6 +1,6 @@
 <template>
   <div class="c-home">
-    <div class="o-container o-container--sm">
+    <div class="o-container o-container--md">
       <div class="c-home__content">
         <Hero />
         <div class="c-home__realisations-container">
@@ -48,6 +48,7 @@
                       :technos="item.technos"
                       :desc="item.shortDescription"
                       :date="item.date"
+                      :img="item.pictures[0]"
                     />
                   </SwiperSlide>
                 </Swiper>

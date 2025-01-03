@@ -1,6 +1,7 @@
 <template>
   <div class="c-card">
     <div class="c-card__content">
+      <img class="c-card__cover" :src="img" alt="cover" />
       <div>
         <div class="c-card__title">
           <h3 class="c-h-l">{{ title }}</h3>
@@ -55,6 +56,7 @@ interface Props {
   technos: { name: string; label: string }[];
   desc: string;
   date: string;
+  img: any;
 }
 defineProps<Props>();
 
