@@ -21,7 +21,7 @@
 
 .o-container--sm {
   --page-gutter: 4rem;
-  --page-max-width: calc(102rem + 2 * var(--page-gutter));
+  --page-max-width: calc(110rem + 2 * var(--page-gutter));
 
   @include settings.max-width(lg) {
     --page-gutter: 2rem;
