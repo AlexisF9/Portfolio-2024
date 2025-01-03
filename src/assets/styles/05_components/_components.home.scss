@@ -90,7 +90,7 @@
 }
 
 .c-home__swiper {
-  padding: 6rem 3rem 6rem 0;
+  padding: 6rem 4rem 6rem 0;
   transition: .4s transform;
 
   @include queries.max-width(lg) {
@@ -106,12 +106,13 @@
   }
 
   .swiper-slide {
+    height: auto;
+
     @include queries.min-width(lg) {
       flex-shrink: inherit;
     }
 
     @include queries.max-width(lg) {
-      height: auto;
       width: 90%!important;
     }
   }
