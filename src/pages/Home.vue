@@ -4,7 +4,7 @@
       <div class="c-home__content">
         <Hero />
         <div class="c-home__realisations-container">
-          <Transition name="realisations-buttons" appear
+          <!-- <Transition name="realisations-buttons" appear
             ><div class="c-home__realisations-buttons">
               <p class="c-h-l u-text-white">Réalisations</p>
               <div>
@@ -19,7 +19,7 @@
                 </button>
               </div>
             </div></Transition
-          >
+          >-->
 
           <div class="c-home__realisations">
             <Transition name="home-slider" appear>
@@ -36,7 +36,7 @@
                     },
                     '1024': {
                       direction: 'vertical',
-                      spaceBetween: 40,
+                      spaceBetween: 24,
                     },
                   }"
                 >
@@ -101,20 +101,20 @@ const data = ref(rea);
 const filter = ref("tous");
 const mySwiper: any = ref(null);
 
-const filters: { label: string; value: string }[] = [
-  {
-    label: "Tous",
-    value: "tous",
-  },
-  {
-    label: "Pro",
-    value: "pro",
-  },
-  {
-    label: "Perso",
-    value: "perso",
-  },
-];
+//const filters: { label: string; value: string }[] = [
+//  {
+//    label: "Tous",
+//    value: "tous",
+//  },
+//  {
+//    label: "Pro",
+//    value: "pro",
+//  },
+//  {
+//    label: "Perso",
+//    value: "perso",
+//  },
+//];
 
 const captureSwiperInstance = (swiper: any) => {
   mySwiper.value = swiper;
