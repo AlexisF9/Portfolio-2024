@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <RouterView />
+  <KeepAlive>
+    <RouterView />
+  </KeepAlive>
 </template>
 
 <style scoped></style>
