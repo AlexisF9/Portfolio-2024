@@ -26,15 +26,15 @@ const logos = [
     <Transition name="fade" appear>
       <img
         class="c-hero__me"
-        :width="300"
-        :height="300"
+        :width="250"
+        :height="250"
         src="/images/Alexis.jpg"
         alt=""
       />
     </Transition>
     <div>
       <Transition name="slide" appear>
-        <h1 class="c-h-xl u-text-white u-mb-24">
+        <h1 class="c-h-xl u-text-white u-mb-16">
           Bienvenue sur mon portfolio !
         </h1>
       </Transition>

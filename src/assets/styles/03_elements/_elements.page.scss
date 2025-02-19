@@ -15,8 +15,15 @@ body {
   @include settings.text('text-m', var(--text-default));
   overflow-x: hidden;
   background-color: var(--color-neutral-1);
-  background-size: spacing.$space-40 spacing.$space-40;
-  background-image: radial-gradient(circle, var(--color-neutral-2) .1rem, rgba(0, 0, 0, 0) .1rem);
+
+  &::before {
+    display: block;
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-size: spacing.$space-40 spacing.$space-40;
+    background-image: radial-gradient(circle, var(--color-neutral-2) .1rem, rgba(0, 0, 0, 0) .1rem);
+  }
 }
 
 [data-page-target="slot"] {
