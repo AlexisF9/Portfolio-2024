@@ -96,7 +96,7 @@ import rea from "../../public/realisations.json";
 import "swiper/swiper-bundle.css";
 import { Mousewheel } from "swiper/modules";
 
-import { ref, watch } from "vue";
+import { onMounted, ref, watch } from "vue";
 const data = ref(rea);
 const filter = ref("tous");
 const mySwiper: any = ref(null);
@@ -130,5 +130,9 @@ watch(filter, () => {
         ? rea.filter((el) => el.type === "perso")
         : (data.value = rea);
   }
+});
+
+onMounted(() => {
+  document.title = "Alexis Flacher - Portfolio";
 });
 </script>

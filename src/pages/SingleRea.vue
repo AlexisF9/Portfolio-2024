@@ -145,7 +145,7 @@
 
 <script setup lang="ts">
 import { Navigation, Pagination } from "swiper/modules";
-import { Ref, ref, watchEffect } from "vue";
+import { onMounted, Ref, ref, watchEffect } from "vue";
 import rea from "../../public/realisations.json";
 import { useRoute } from "vue-router";
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -178,4 +178,10 @@ watchEffect(() => {
 const getTechno = (element: string) => {
   return "logo-" + element;
 };
+
+onMounted(() => {
+  if (data.value) {
+    document.title = data.value.title;
+  }
+});
 </script>
