@@ -39,12 +39,12 @@ const logos = [
         </h1>
       </Transition>
       <Transition name="slide2" appear>
-        <h2 class="c-text-l u-text-white">
+        <p class="c-text-l u-text-white">
           Moi c'est <span class="c-hero__name">Alexis Flacher</span>, je suis
           <span class="c-hero__jobs">
             <span v-for="item in me">{{ item }}</span>
           </span>
-        </h2>
+        </p>
       </Transition>
     </div>
     <Transition name="slide3" appear>
