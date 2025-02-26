@@ -27,6 +27,7 @@
           :to="{ name: 'single-rea', params: { name: name } }"
           class="c-card__link"
         >
+          <span class="u-sr-only">Voir plus</span>
           <svg
             width="24"
             height="24"

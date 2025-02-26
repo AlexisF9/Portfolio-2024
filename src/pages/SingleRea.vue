@@ -97,6 +97,7 @@
           </SwiperSlide>
           <div class="c-single-rea__arrows">
             <button class="c-single-rea__prev">
+              <span class="u-sr-only">Prev</span>
               <svg
                 width="24"
                 height="24"
@@ -114,6 +115,7 @@
               </svg>
             </button>
             <button class="c-single-rea__next">
+              <span class="u-sr-only">Next</span>
               <svg
                 width="24"
                 height="24"
