@@ -37,6 +37,24 @@
   },
   {
     "id": 2,
+    "name": "griddy",
+    "title": "Griddy",
+    "date": "2024",
+    "shortDescription": "Développement d'une plateforme de gestion des tâches. Le site est encore en développement mais vous pouvez visiter la v1.",
+    "description": "Griddy est une plateforme de création et de gestion de tâches, développé en React. Sur Griddy il est possible de créer, trier, modifier et supprimer des colonnes et des tâches. Je me suis notamment inspiré de plateformes similaire (comme Jira, Trello..etc) et d'un ancien test technique. Griddy fonctionne en local, les données sont enregistrées dans le localstorage du navigateur. J'utilise Zustand pour la gestion de l'état, React DnD pour le drag and drop des tâches et React Router.",
+    "type": "perso",
+    "pictures": ["/images/griddy/griddy-1.webp", "/images/griddy/griddy-2.webp", "/images/griddy/griddy-3.webp", "/images/griddy/griddy-4.webp", "/images/griddy/griddy-5.webp", "/images/griddy/griddy-6.webp", "/images/griddy/griddy-7.webp", "/images/griddy/griddy-8.webp"],
+    "technos": [
+      {
+        "name": "react",
+        "label": "ReactJS"
+      }
+    ],
+    "link": "https://griddy-pi.vercel.app/",
+    "github": null
+  },
+  {
+    "id": 3,
     "name": "clap",
     "title": "Clap",
     "date": "2024",
@@ -56,24 +74,6 @@
     ],
     "link": "https://clap-plum.vercel.app/",
     "github": "https://github.com/AlexisF9/Clap"
-  },
-  {
-    "id": 3,
-    "name": "griddy",
-    "title": "Griddy",
-    "date": "2024",
-    "shortDescription": "Développement d'une plateforme de gestion des tâches. Le site est encore en développement mais vous pouvez visiter la v1.",
-    "description": "Griddy est une plateforme de création et de gestion de tâches, développé en React. Sur Griddy il est possible de créer, trier, modifier et supprimer des colonnes et des tâches. Je me suis notamment inspiré de plateformes similaire (comme Jira, Trello..etc) et d'un ancien test technique. Griddy fonctionne en local, les données sont enregistrées dans le localstorage du navigateur. J'utilise Zustand pour la gestion de l'état, React DnD pour le drag and drop des tâches et React Router.",
-    "type": "perso",
-    "pictures": ["/images/griddy/griddy-1.webp", "/images/griddy/griddy-2.webp", "/images/griddy/griddy-3.webp", "/images/griddy/griddy-4.webp", "/images/griddy/griddy-5.webp", "/images/griddy/griddy-6.webp", "/images/griddy/griddy-7.webp", "/images/griddy/griddy-8.webp"],
-    "technos": [
-      {
-        "name": "react",
-        "label": "ReactJS"
-      }
-    ],
-    "link": "https://griddy-pi.vercel.app/",
-    "github": null
   },
   {
     "id": 4,
