@@ -154,27 +154,5 @@
     ],
     "link": null,
     "github": null
-  },
-  {
-    "id": 8,
-    "name": "myimmo",
-    "title": "My Immo",
-    "date": "2021",
-    "shortDescription": "La même année que mon alternance, pour tester le CMS Strapi et l'authentification avec JWT j'ai créé un site type \"Se Loger\".",
-    "description": "La même année que mon alternance, pour tester le CMS Strapi et une authentification avec JWT sur React et Next j'ai créé un site type \"Se Loger\". Le \"back\" est réalisé sur Strapi qui me renvoie une API sur laquelle je connecte mon front.",
-    "type": "perso",
-    "pictures": ["/images/myimmo/myimmo.webp", "/images/myimmo/myimmo2.webp", "/images/myimmo/myimmo3.webp"],
-    "technos": [
-      {
-        "name": "next",
-        "label": "NextJS"
-      },
-      {
-        "name": "strapi",
-        "label": "Strapi"
-      }
-    ],
-    "link": null,
-    "github": "https://github.com/AlexisF9/MyImmo"
   }
 ]
