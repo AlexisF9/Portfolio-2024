@@ -1,24 +1,6 @@
 [
   {
     "id": 0,
-    "name": "bongenie",
-    "title": "Bongénie",
-    "date": "2024",
-    "shortDescription": "Intégration du site e-commerce de Bongénie, une marque suisse type \"Galeries Lafayette\".",
-    "description": "Bongénie est une marque suisse type \"Galeries Lafayette\" de vente de produits de luxe. J'ai réalisé l'intégration en collaboration avec un collègue intégrateur en utilisant StimulusJS, un mini framework js léger qui permet de créer du code js réutilisable facilement.",
-    "type": "pro",
-    "pictures": ["/images/bongenie/bongenie-1.webp", "/images/bongenie/bongenie-2.webp", "/images/bongenie/bongenie-3.webp", "/images/bongenie/bongenie-4.webp"],
-    "technos": [
-      {
-        "name": "stimulus",
-        "label": "StimulusJS"
-      }
-    ],
-    "link": "https://www.bongenie.ch/fr_CH/",
-    "github": null
-  },
-  {
-    "id": 1,
     "name": "daitem",
     "title": "Daitem",
     "date": "2024",
@@ -33,6 +15,24 @@
       }
     ],
     "link": "https://daitem.com/fr",
+    "github": null
+  },
+  {
+    "id": 1,
+    "name": "bongenie",
+    "title": "Bongénie",
+    "date": "2024",
+    "shortDescription": "Intégration du site e-commerce de Bongénie, une marque suisse type \"Galeries Lafayette\".",
+    "description": "Bongénie est une marque suisse type \"Galeries Lafayette\" de vente de produits de luxe. J'ai réalisé l'intégration en collaboration avec un collègue intégrateur en utilisant StimulusJS, un mini framework js léger qui permet de créer du code js réutilisable facilement.",
+    "type": "pro",
+    "pictures": ["/images/bongenie/bongenie-1.webp", "/images/bongenie/bongenie-2.webp", "/images/bongenie/bongenie-3.webp", "/images/bongenie/bongenie-4.webp"],
+    "technos": [
+      {
+        "name": "stimulus",
+        "label": "StimulusJS"
+      }
+    ],
+    "link": "https://www.bongenie.ch/fr_CH/",
     "github": null
   },
   {
