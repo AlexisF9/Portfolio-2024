@@ -5,7 +5,7 @@
     "title": "Daitem",
     "date": "2024",
     "shortDescription": "Intégration des sites Daitem, fournisseur de systèmes de sécurité et filiale du groupe Atraltech.",
-    "description": "Daitem est un fournisseur de systèmes de sécurité et filiale du groupe Atraltech. J'ai réalisé l'intégration des sites \"Daitem pro\", accecibles par les insrtallateurs pour commander les produits, et \"daitem com\", accessibles par tout le monde pour présenter la marque.",
+    "description": "Daitem est un fournisseur de systèmes de sécurité et filiale du groupe Atraltech. J'ai réalisé l'intégration des sites \"Daitem pro\", accecibles par les installateurs pour commander les produits, et \"daitem com\", accessibles par tout le monde pour présenter la marque.",
     "type": "pro",
     "pictures": ["/images/daitem/daitem-1.webp", "/images/daitem/daitem-2.webp", "/images/daitem/daitem-3.webp", "/images/daitem/daitem-4.webp", "/images/daitem/daitem-5.webp", "/images/daitem/daitem-6.webp", "/images/daitem/daitem-7.webp", "/images/daitem/daitem-8.webp", "/images/daitem/daitem-9.webp"],
     "technos": [
